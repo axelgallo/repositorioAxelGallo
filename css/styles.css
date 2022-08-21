@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.contenedorPrincipal{
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 100px 200px 100px;
+    grid-template-columns: 1200px;
+    justify-content: center;
+    justify-content: space-around;
+    
+   
+}
+.header{
+    display: flex;
+    grid-area: header;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.main{
+    grid-area: main;
+    background-color: #a5e5a5;
+}
+.footer{
+    grid-area: footer;
+    background-color: #22c940;
+    text-align: center;
+}
+.navLista{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.cajaNav{
+    width: 50%;
+    
+}
+.logo{
+    width: 70px;
+}
+body{
+    background-image: url(/img/FondoAberturasSureñas.jpg);
+}
+
+
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    .contenedorPrincipal{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 100px 900px 200px;
+        grid-template-columns: 100%;
+        justify-content: center;
+        justify-content: space-around;
+        font-weight: bold;
+        column-gap: 10px;
+        row-gap: 10px;
+         
+    }
+    .body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.navlista li{
+    text-decoration: none;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+.footer img {
+    width: 200px;
+}
+
+}
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    .contenedorPrincipal{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 100px 600px 200px;
+        grid-template-columns: 100%;
+        justify-content: center;
+        justify-content: space-around;
+        font-weight: bold;
+        column-gap: 10px;
+        row-gap: 10px;
+         
+    }
+
+    .body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.navlista li{
+    text-decoration: none;
+    
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+   
+}
+.footer img {
+    width: 200px;
+}
+
+}
+@media screen and (min-width: 768px) and (orientation: portrait) {
+
+    .contenedorPrincipal{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 100px 600px 200px;
+        grid-template-columns: 100%;
+        justify-content: center;
+        justify-content: space-around;
+        font-weight: bold;
+        column-gap: 10px;
+        row-gap: 10px;
+         
+    }
+
+    .body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.navlista li{
+    text-decoration: none;
+    
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    
+   
+}
+.footer img {
+    width: 200px;
+}
+
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    .contenedorPrincipal{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        grid-template-rows: 100px 700px 200px;
+        grid-template-columns: 100%;
+        justify-content: center;
+        justify-content: space-around;
+        font-weight: bold;
+        column-gap: 10px;
+        row-gap: 10px;
+         
+    }
+
+    .body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.navlista li{
+    text-decoration: none;
+    
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+   
+}
+.footer img {
+    width: 200px;
+}
+
+}
+
+.divPintura {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav productos productos"
+    "footer footer footer";
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-rows: 100px 500px 75px;
+    grid-template-columns: 200px 500px 300px;
+  }
+  
+  header {
+    background-color: aquamarine;
+    grid-area: header;
+  }
+  
+.footerPintura {
+    background-color: rgb(26, 211, 165);
+    grid-area: footer;
+    text-align: center;
+  }
+  
+  .productos {
+    background-color: cornflowerblue;
+    grid-area: productos;
+  }
+  
+ 
+  
+  .navPintura {
+    background-color: rgb(49, 122, 49);
+    grid-area: nav;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+.imgMasilla{
+    width: 200px;
+}
+  
+@media screen and (min-width: 480px) and (orientation: landscape) {
+    .divPintura {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "nav productos productos"
+        "footer footer footer";
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-rows: 100px 100px 75px;
+        grid-template-columns: 200px 500px 300px;
+      }
+      
+      header {
+        background-color: aquamarine;
+        grid-area: header;
+      }
+      
+    .footerPintura {
+        background-color: rgb(26, 211, 165);
+        grid-area: footer;
+        text-align: center;
+      }
+      
+      .productos {
+        background-color: cornflowerblue;
+        grid-area: productos;
+      }
+      
+     
+      
+      .navPintura {
+        background-color: rgb(49, 122, 49);
+        grid-area: nav;
+        text-align: center;
+        font-weight: bold;
+      }
+      
+    .imgMasilla{
+        width: 200px;
+    }
+   
+}
+
+
+@media screen and (min-width: 600px) and (orientation: portrait) {
+    .divPintura {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "nav productos productos"
+        "footer footer footer";
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-rows: 100px 500px 75px;
+        grid-template-columns: 50px 700px 300px;
+      }
+      
+      header {
+        background-color: aquamarine;
+        grid-area: header;
+        justify-content: space-around;
+      }
+      
+    .footerPintura {
+        background-color: rgb(26, 211, 165);
+        grid-area: footer;
+        text-align: center;
+      }
+      
+      .productos {
+        background-color: cornflowerblue;
+        grid-area: productos;
+      }
+      
+     
+      
+      .navPintura {
+        background-color: rgb(49, 122, 49);
+        grid-area: nav;
+        text-align: center;
+        font-weight: bold;
+      }
+      
+    .imgMasilla{
+        width: 200px;
+    }
+    
+
+}
+@media screen and (min-width: 768px) and (orientation: portrait) {
+
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    
+
+}
+.boton:hover{    background-color: #fff;
+    border: 1px solid #000;    
+    color: #000;
+    transition: all .15s;
+}
+
