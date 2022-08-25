@@ -335,10 +335,19 @@ body{
     
 
 }
+@media screen and (min-width: 768px) and (orientation: portrait) {
 
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    
+
+}
 .boton:hover{    background-color: #fff;
     border: 1px solid #000;    
     color: #000;
     transition: all .15s;
 }
-
+.carousel-item {
+    height: 30%;
+    width: 50%;
+}
