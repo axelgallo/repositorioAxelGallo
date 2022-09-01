@@ -2,84 +2,22 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-.contenedorPrincipal{
-    width: 100%;
-    display: grid;
-    grid-template-areas:
-    "header"
-    "main"
-    "footer";
-    grid-template-rows: 100px 200px 100px;
-    grid-template-columns: 1200px;
-    justify-content: center;
-    justify-content: space-around;
-    
-   
-}
-.header{
-    display: flex;
-    grid-area: header;
-    background-color: white;
-    justify-content: space-around;
-    align-items: center;
-}
-.main{
-    grid-area: main;
-    background-color: #a5e5a5;
-}
-.footer{
-    grid-area: footer;
-    background-color: #22c940;
-    text-align: center;
-}
-.navLista{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-.cajaNav{
-    width: 50%;
-    
-}
 .logo{
-    width: 70px;
+    width: 60px;
 }
-body{
-    background-image: url(/img/FondoAberturasSureñas.jpg);
+.logohome{
+    width: 40px;
 }
-
-
-@media screen and (min-width: 480px) and (orientation: landscape) {
-    .contenedorPrincipal{
-        width: 100%;
-        display: grid;
-        grid-template-areas:
-        "header"
-        "main"
-        "footer";
-        grid-template-rows: 100px 900px 200px;
-        grid-template-columns: 100%;
-        justify-content: center;
-        justify-content: space-around;
-        font-weight: bold;
-        column-gap: 10px;
-        row-gap: 10px;
-         
-    }
-    .body{
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-.navlista li{
-    text-decoration: none;
+card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2;
 }
-.imagenes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-   
+.card-border:hover{
+    transform: scale(1.05);
 }
+<<<<<<< HEAD
 .footer img {
     width: 200px;
 }
@@ -342,3 +280,8 @@ body{
     transition: all .15s;
 }
 
+=======
+.ig{
+    width: 20px;
+}
+>>>>>>> 2daentrega
