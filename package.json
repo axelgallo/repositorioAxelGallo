@@ -1,0 +1,19 @@
+{
+  "name": "aberturasurenas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelgallo/repositorioAxelGallo.git"
+  },
+  "author": "AxelGallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelgallo/repositorioAxelGallo/issues"
+  },
+  "homepage": "https://github.com/axelgallo/repositorioAxelGallo#readme"
+}
