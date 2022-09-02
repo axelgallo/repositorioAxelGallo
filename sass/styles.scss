@@ -1,5 +1,15 @@
-.logo{
-    width: 60px;
+$verde: #198754;
+
+header{
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                .logo{
+                    width: 60px;
+                }
+            }
+        }
+    }
 }
 .logohome{
     width: 40px;
@@ -15,4 +25,7 @@ card-border{
 }
 .ig{
     width: 20px;
+}
+.colorVerde{
+    background-color: $verde;
 }
