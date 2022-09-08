@@ -1,16 +1,10 @@
-.footer-index, .footer-contacto {
-  font-weight: 700; }
-
-.footer-contacto {
-  background-color: #198754; }
-
 header .navbar .container-fluid .navbar-brand .logo {
   width: 60px; }
 
-header .navbar .container.fluid .col-4 .navbar-nav .logohome {
+.logohome {
   width: 40px; }
 
-article .cards .container-md .row .col-sm .card text-bg-success .card-body {
+card-border {
   border: solid 10px white;
   border-radius: 20px;
   overflow: hidden;

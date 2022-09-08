@@ -1,0 +1,56 @@
+$verde: #198754;
+header{
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                .logo{
+                    width: 60px;
+                }
+            }
+        }
+    }
+}
+
+
+header{
+    .navbar{
+        .container.fluid{
+            .col-4{
+                .navbar-nav{
+                    .logohome{
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+article{
+    .cards{
+        .container-md{
+            .row{
+                .col-sm{
+                    .card text-bg-success{
+                        .card-body{
+                            border: solid 10px white;
+                            border-radius: 20px;
+                            overflow: hidden;
+                             transition: all ease-out 0.2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+.ig{
+    width: 20px;
+}
+.colorVerde{
+    background-color: $verde;
+}
+
