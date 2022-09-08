@@ -2,29 +2,22 @@ $verde: #198754;
 header{
     .navbar{
         .container-fluid{
+            .logohome{
+                width: 40px;
+            }
+        
             .navbar-brand{
                 .logo{
                     width: 60px;
                 }
+
+                
+                
             }
         }
     }
 }
 
-
-header{
-    .navbar{
-        .container.fluid{
-            .col-4{
-                .navbar-nav{
-                    .logohome{
-                        width: 40px;
-                    }
-                }
-            }
-        }
-    }
-}
 
 article{
     .cards{
