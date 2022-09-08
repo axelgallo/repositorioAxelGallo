@@ -1,0 +1,10 @@
+$texto: ("regular": 400, "medium": 500, "bold": 700);
+
+.footer-index {
+    font-weight: map-get($texto, "bold");
+}
+
+.footer-contacto{
+    @extend .footer-index;
+    background-color: #198754;
+}

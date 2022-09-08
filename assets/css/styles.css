@@ -1,0 +1,20 @@
+header .navbar .container-fluid .navbar-brand .logo {
+  width: 60px; }
+
+.logohome {
+  width: 40px; }
+
+card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2; }
+
+.card-border:hover {
+  transform: scale(1.05); }
+
+.ig {
+  width: 20px; }
+
+.colorVerde {
+  background-color: #198754; }
